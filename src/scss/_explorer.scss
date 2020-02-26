@@ -1,0 +1,33 @@
+
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 96px;
+    .box {
+        height: 250px;
+        width: 33%;
+        padding-left: 30px;
+        &_img {
+            height: 60px;
+        }
+        &_teatle {
+            font-family: "Oswald";
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #302528;
+            padding-top: 25px;
+        }
+        &_text {
+            font-family: "Lato";
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #181818;
+        }
+    }
+}

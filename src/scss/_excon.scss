@@ -1,0 +1,48 @@
+.excon {
+    padding: 56px 0 50px;
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_compution {
+            width: 470px;
+            border-top: 8px solid $yellow;
+            background-color: $dark-green;
+            padding: 40px 50px ;
+            &-title {
+                font-family: "Montserrat";
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                text-transform: uppercase;
+                color: #F2EEEC;
+            }
+            &-text {
+                padding: 15px 0 29px;
+                font-family: "Lato";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #F2EEEC;
+            }
+            a {
+                font-family: "Oswald";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $yellow;
+                &:hover {
+                    color: $yellow;
+                }
+                img {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+    &_img {
+        img {
+            width: 445px;
+        }
+    }
+}

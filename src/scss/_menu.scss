@@ -1,0 +1,60 @@
+nav {
+    position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 9;
+    background-color: $green;
+}
+	
+    
+.menu {
+    display: flex;
+	justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+	&_link {
+        font-size: 15px;
+		color: rgba(255, 255, 255, 255);
+        font-weight: 300;
+        &:hover {
+            color: $yellow;
+        }
+            
+        &-txt {
+            display: block;
+            text-align: center;
+            padding-top: 23px;
+            color: $green;
+            text-transform: uppercase;
+            &:hover {
+                color: $green;
+            }
+        }
+        img {
+            padding-top: 6px;
+        } 
+    }
+
+	&_item {
+        width: 170px;
+        border-right: 2px solid $dark-green;
+        left: 50%;
+        text-align: center;
+        padding: 23px 0 17px ;
+        &-img {
+            padding-right: 33px;
+            border-right: 2px solid $dark-green;
+        }
+        &-yellow {
+            background-color: $yellow;
+            width: 150px;
+           
+        }
+        &:last-child{
+            border-right: 0;
+        }	
+    }		
+}
+	

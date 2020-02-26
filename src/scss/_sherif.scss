@@ -1,0 +1,36 @@
+.sherif {
+    display: block;
+    background: url(../img/Object.png) center (center/cover) no-repeat;
+    background-color: gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.415987) 100%), rgba(12, 62, 32, 0.85);;
+    padding: 161px 0 134px 93px;
+    &__block {
+        display: flex;
+        &_img {
+            width: 80px;
+            img {
+                border-radius: 100%;
+            }
+        }
+        &_title {
+            padding-left: 25px;
+            font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            color: $yellow;
+        }
+    }
+    &__text {
+        width: 540px;
+        padding-top: 25px;
+        font-family: "Lato";
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F2F3F4;
+    }
+    &__painting {
+        padding-top: 20px;
+    }
+}
