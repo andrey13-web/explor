@@ -1,5 +1,5 @@
-@import './menu';
 @import './vareables';
+@import './menu';
 @import './program';
 @import './explorer';
 @import './sherif';
@@ -8,9 +8,10 @@
 @import './button';
 @import './title';
 @import './dispatch';
+@import './career';
 
 
 .container-fluid {
-    padding: none;
+    padding: 0;
     margin: 0;
 }

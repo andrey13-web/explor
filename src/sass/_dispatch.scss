@@ -1,10 +1,13 @@
 .dispatch {
-    background: url(../img/programs/Rectangle\ 3\ Copy\ 2.png) center (center/cover) no-repeat;
+    margin-top: 64px;
     padding: 170px 475px 170px 95px;
+    background: url("../img/programs/Rectangle\ 3\ Copy\ 2.png") center (center/cover) no-repeat;
     &__text {
         font-family: Montserrat;
         font-weight: 500;
+        margin-top: 60px;
         font-size: 24px;
         line-height: 40px;
+        color: #F2EEEC;
     }
 }

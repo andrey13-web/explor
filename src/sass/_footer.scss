@@ -9,7 +9,10 @@ footer {
                 padding-right: 55px;
                     &:last-child {
                         padding-right: 0
-                    }                                   
+                    } 
+                    &_yellow {
+                        color: $yellow;
+                    }                                  
                 }
                 ul {
                     padding: 0;
@@ -39,11 +42,14 @@ footer {
             &__info {
                 display: flex;
                 justify-content: space-between;
+                padding-left: 0;
+                list-style: none;
                 &_item {
                         display: flex;
                         flex-direction: column;
                         padding-top: 30px;
                         padding-right: 50px; 
+                        
                         &-login {
                             padding-top: 30px;
                             span {
