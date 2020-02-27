@@ -1,0 +1,30 @@
+.slip {
+    background: #F2EEEC;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        width: 445px;
+        height: 486px;
+        border: none;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &-head {
+            font-family: Oswald;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+        &-text {
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            padding-top: 20px;
+        }
+    }
+}
