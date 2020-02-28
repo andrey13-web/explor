@@ -1,4 +1,5 @@
 @import './vareables';
+@import './container';
 @import './menu';
 @import './program';
 @import './explorer';
@@ -12,7 +13,5 @@
 @import './slip';
 
 
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
+
+
