@@ -67,6 +67,9 @@ footer {
                     &_link {
                         color: #c0c0c0;
                         font-size: 15px;
+                        &:hover {
+                            color: #ffffff;
+                        }
                         &-icon {
                             display: flex;
                             justify-content: space-between;
